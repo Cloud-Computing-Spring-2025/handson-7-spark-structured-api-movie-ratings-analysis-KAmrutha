@@ -275,31 +275,39 @@ A summary of **movie-watching trends** over the years, indicating peak years for
 This code performs binge-watching pattern analysis based on movie ratings data using PySpark. It processes a dataset containing user movie ratings and determines the percentage of users who binge-watch movies within each age group.
 
 ## **Output**
-AgeGroup,BingeWatchers,Percentage
-Senior,11,33.33
-Teen,22,52.38
-Adult,9,36.0
+
+| Age Group   | Binge Watchers | Percentage |
+|-------------|----------------|------------|
+| Senior      | 11             | 33.33      |
+| Teen        | 22             | 52.38      |
+| Adult       | 9              | 36.0       |
+
 
 ## **Task2 code explanation**
 
 This code identifies users at risk of churn based on their subscription status and low watch time. It filters users who have canceled subscriptions and watch time less than 100 minutes. The results are then saved to a CSV file, showing the count of churn-risk users.
 
 ## **Output**
-Total Users,Churn Risk Users
-12,Users with low watch time & canceled subscriptions
+
+|Churn Risk Users                                  |	Total Users |
+|--------------------------------------------------|--------------|
+|Users with low watch time & canceled subscriptions|	12          |
 
 ## **Task3 code explanation**
 
 This code analyzes trends in movie watching over the years by grouping movie ratings data based on the WatchedYear and counting the number of movies watched each year. It then outputs the trends to a CSV file. The script uses PySpark for data processing and aggregation.
 
 ## **Output**
-WatchedYear,Movies Watched
-2018,13
-2019,14
-2020,21
-2021,15
-2022,20
-2023,17
+
+| Watched Year | Movies watched |
+|--------------|----------------|
+| 2018         | 13           |
+| 2019         | 14           |
+| 2020         | 21           |
+| 2021         | 15           |
+| 2022         | 20           |
+| 2023         | 17           |
+
 ---
 
 
